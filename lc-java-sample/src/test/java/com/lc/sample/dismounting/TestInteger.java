@@ -32,7 +32,7 @@ public class TestInteger {
         System.out.println(i1 == i2);
 
         // 如果两个变量的值在区间-128到127之间，则比较结果为true，如果两个变量的值不在此区间，则比较结果为false
-        // true
+        // false
         System.out.println(i3 == i4);
 
         // 两个通过new生成的Integer变量永远是不相等的（因为new生成的是两个对象，其内存地址不同）
